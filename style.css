@@ -47,7 +47,8 @@ li:not(.active):hover{
 }
 
 .hidden {
-    display: hidden;
+   /* visibility:hidden; */
+   display: none;
 }
 
 #screenText {
