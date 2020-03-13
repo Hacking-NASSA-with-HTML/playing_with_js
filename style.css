@@ -60,7 +60,7 @@ li:not(.active):hover{
 
 #screenText {
     display: block;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 5px 0 5px;
     text-align: center;
     color: blue;
