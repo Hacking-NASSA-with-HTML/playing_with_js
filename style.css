@@ -1,12 +1,15 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   background: white;
-}
+} */
 
 body {
-    height: 90vh;
+    height: 85vh;
     font-family: 'Roboto', sans-serif;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 /*
 ul {
@@ -32,13 +35,17 @@ li:not(.active):hover{
     color: red;
 } */
 
+.fireworks {
+    position: absolute;
+    height: auto;
+}
+
 .message__block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    width: auto;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 30vh;
+    width: 50vw;
+    text-align: center;
 }
 
 #greeting__image {
@@ -52,6 +59,7 @@ li:not(.active):hover{
 }
 
 #screenText {
+    display: block;
     font-size: 50px;
     margin: 0 5px 0 5px;
     text-align: center;

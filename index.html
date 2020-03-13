@@ -6,21 +6,28 @@
   <title>Милому Цветочку 😘</title>
     <link rel="icon" href="https://cdn11.bigcommerce.com/s-vz2vyn83ww/product_images/conroys-fav.jpg" type="image/x-icon">
     <link rel="shortcut icon" href="https://cdn11.bigcommerce.com/s-vz2vyn83ww/product_images/conroys-fav.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="./animationstyle.css">
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <canvas class="fireworks"></canvas>
   <!-- <ul id="menu">
     <li class="item active">Home</li>
     <li class="item">Services</li>
     <li class="item">About</li>
   </ul> -->
 
+
   <div class="message__block">
-      <img id="greeting__image" class="hidden" src="./fw.gif" alt="fire work gif">
-      <!-- <input type="button" value="нажми меня пальчиком"> -->
-      <p id="screenText">Передать Привет Люсеньке</p>
+    <p id="screenText">Передать Привет Люсеньке</p>
+    <img id="greeting__image" class="hidden" src="./fw.gif" alt="fire work gif">
   </div>
-  <script src="./main.js"></script>
+
+<script src="./externalanimationbase.js"></script>
+<script src="./animation.js"></script>
+<script src="./main.js"></script>
+
 </body>
 </html>
