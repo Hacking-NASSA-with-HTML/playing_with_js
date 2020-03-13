@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+/*
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+}
+
+li {
+    height: 100px;
+    width: 200px;
+    list-style: none;
+    margin: 10px;
+}
+
+li.active {
+    background: red;
+    color: white;
+}
+
+li:not(.active):hover{
+    cursor: pointer;
+    color: red;
+} */
+
+.message__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+#greeting__image {
+    height: 265px;
+    width: 245px;
+}
+
+.hidden {
+    display: none;
+}
+
+#screenText {
+    font-size: 50px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
