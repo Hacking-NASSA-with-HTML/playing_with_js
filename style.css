@@ -43,6 +43,7 @@ li:not(.active):hover{
 .message__block {
     position: absolute;
     margin-left: 25vw;
+    margin-right: 25vw;
     margin-top: 30vh;
     width: 50vw;
     text-align: center;
@@ -60,9 +61,25 @@ li:not(.active):hover{
 
 #screenText {
     display: block;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0 5px 0 5px;
     text-align: center;
     color: blue;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px)  {
+
+    .message__block {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 30vh;
+        width: 100vw;
+    }
+
+    #screenText {
+        font-size: 40px;
+        line-height: 65px;
+    }
+
 }
