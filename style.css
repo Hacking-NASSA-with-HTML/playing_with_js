@@ -70,15 +70,24 @@ li:not(.active):hover{
 
 @media only screen and (max-width: 768px)  {
 
+    .fireworks {
+        position: absolute;
+        height: auto;
+        max-width: 350px;
+        margin-top: 25vh;
+    }
+
     .message__block {
-        margin-left: 5vw;
-        margin-right: 5vw;
-        margin-top: 30vh;
+        /* margin-left: 50vw; */
+        /* margin-right: 5vw; */
+        margin-left: auto;
+        margin-top: 15vh;
         width: 100vw;
+        /* max-width: 350px; */
     }
 
     #screenText {
-        font-size: 40px;
+        font-size: 50px;
         line-height: 65px;
     }
 
