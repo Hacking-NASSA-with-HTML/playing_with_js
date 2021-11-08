@@ -12,6 +12,6 @@ const SCREENTEXT = document.getElementById('screenText');
 const GREETENGIMAGE = document.getElementById('greeting__image');
 
 SCREENTEXT.addEventListener('click', () => {
-    SCREENTEXT.innerHTML = "Привет передан!!!!!";
+    SCREENTEXT.innerHTML = "Привет передан!";
     GREETENGIMAGE.classList.remove('hidden');
 });
